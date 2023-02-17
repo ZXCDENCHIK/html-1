@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./1.ico" type="ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aim</title>
+</head>
+<body>
+    <div class="screen">
+        <h1>AIM TRAINING</h1>
+        <a class="start" id="start">начать игру</a>
+    </div>
+
+    <div class="screen">
+        <h1 style="margin-bottom: 80px;">ВЫБЕРИТЕ ВРЯМЯ</h1>
+            <ul class="tl" id="tl">
+                <li>
+                    <button class="tb" data-time="10">10 СЕК</button>
+                </li>
+                <li>
+                    <button class="tb" data-time="20">20 СЕК</button>
+                </li>
+                <li>
+                    <button class="tb" data-time="30">30 СЕК</button>
+                </li>
+                <li>
+                    <button class="tb" data-time="40">40 СЕК</button>
+                </li>
+            </ul>
+    </div>
+
+    <div class="screen">
+        <h3 style="margin-bottom: 25px;">ОСТАЛОСЬ: <span id="time">00:00</span></h3>
+        <h3 style="margin-bottom: 25px;">ОЧКИ:<span id="ssc">0</span></h3>
+        <div class="board" id="board"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
